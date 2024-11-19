@@ -3,10 +3,10 @@ from pyrogram import Client
 from pyrogram.errors import FloodWait
 import time
 
-api_id = int(os.getenv("API_ID"))  # API ID from environment
-api_hash = os.getenv("API_HASH")  # API Hash from environment
-source_channel = os.getenv("SOURCE_CHANNEL")  # Source channel username or ID
-destination_channel = os.getenv("DESTINATION_CHANNEL")  # Destination channel username or ID
+api_id = int(os.getenv("26300022"))  # API ID from environment
+api_hash = os.getenv("def44e13defba9d104323e821955dfa3")  # API Hash from environment
+source_channel = os.getenv("-1002306025697")  # Source channel username or ID
+destination_channel = os.getenv("-1002287893610")  # Destination channel username or ID
 
 app = Client("my_forwarder", api_id, api_hash)
 
